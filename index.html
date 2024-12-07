@@ -7,10 +7,22 @@
     <title>Angry-Bird</title>
 </head>
 <body>
-    <div class="canvas-container">
-        <canvas width="1090" height="490" class="canvas"></canvas>
+    <div class="container">
+        <span id="scorebox" style="border: 1px solid black;padding: 1rem;"></span>
+        <div class="canvas-container">
+            <canvas width="1090" height="490" class="canvas"></canvas>
+        </div>
+        <div class="game-over-notification">
+            <div class="card">
+                <h1>Game Over</h1>
+                <span id="your-score"></span>
+                <button class="restart-button">Restart</button>
+            </div>
+        </div>
     </div>
     
+    
     <script src="script.js"></script>
+    <!-- <script src="index.js"></script> -->
 </body>
 </html>

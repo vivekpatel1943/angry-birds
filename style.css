@@ -1,3 +1,7 @@
+.container{
+    position: relative;
+}
+
 .canvas-container{
     height: 90vh;
     display: flex;
@@ -7,4 +11,18 @@
 
 .canvas{
     border: 2px solid black;
+}
+
+
+.game-over-notification{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color:  red;
+    display: none;
+    z-index: 5;
+    border: 1px solid black;
 }
